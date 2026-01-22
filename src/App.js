@@ -6,17 +6,16 @@ import Home from "./components/Home";
 import {NextStep} from "./components/NextStep";
 import SecondSection from "./components/SecondSection";
 
-
 function App() {
   return (
-    <React.Fragment>
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
       <Home />
       <SecondSection />
       <NextStep />
       <Gallery />
       <Contact />
       <Footer />
-    </React.Fragment>
+    </div>
   );
 }
 

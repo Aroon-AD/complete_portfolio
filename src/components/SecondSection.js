@@ -1,69 +1,142 @@
 import React from 'react'
 
 export default function SecondSection() {
+  const experiences = [
+    {
+      company: "CYBOTRONICS",
+      role: "SENIOR FRONTEND DEVELOPER",
+      period: "2024 - 2025",
+      technologies: ["REACTJS", "JAVASCRIPT", "TAILWINDCSS", "MATERIAL UI"],
+      achievements: [
+        "Developed MDM Studio for managing integrations such as Google Analytics, Salesforce, HubSpot, and QuickBooks",
+        "Designed and developed the company website with responsive layouts and animations",
+        "Improved UI/UX and data visualization for seamless account monitoring"
+      ],
+      current: true
+    },
+    {
+      company: "THINKPALM TECHNOLOGIES",
+      role: "SOFTWARE ENGINEER",
+      period: "2022 - 2024",
+      technologies: ["REACTJS", "TAILWINDCSS", "JAVASCRIPT"],
+      achievements: [
+        "Developed web applications for seafarer details management",
+        "Implemented responsive UI using Tailwind CSS and React.js",
+        "Worked closely with UX teams to convert designs into functional interfaces",
+        "Participated in code reviews and Agile ceremonies"
+      ]
+    },
+    {
+      company: "TECHFULLY",
+      role: "REACTJS DEVELOPER",
+      period: "2021 - 2022",
+      technologies: ["REACTJS", "JAVASCRIPT", "CSS"],
+      achievements: [
+        "Developed educational platform 'Terv' with interactive learning features",
+        "Built responsive and accessible pages for multiple devices",
+        "Implemented quizzes and multimedia-based engagement features"
+      ]
+    },
+    {
+      company: "PADINK ENGINEERING SERVICES",
+      role: "FRONTEND DEVELOPER",
+      period: "2019 - 2021",
+      technologies: ["REACTJS", "JAVASCRIPT", "CSS"],
+      achievements: [
+        "Built Employee Tracker Application using React.js",
+        "Collaborated with design teams to deliver user-friendly interfaces",
+        "Contributed to digital transformation solutions for enterprise clients"
+      ]
+    }
+  ];
+
   return (
-    <React.Fragment>
-      <div id='Projects' className=' rounded-xl mx-5 bg-violet-100 mb-5' >
-        <span>
-          <h2 className='text-5xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-pink-500 to-violet-500'>
-            Projects</h2>
-        </span>
-        <div className='py-5 px-10 container'>
-
-          <ol class="relative border-l border-gray-900 dark:border-gray-700">
-            <li class="mb-10 ml-6">
-              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-                <svg aria-hidden="true" class="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd"></path></svg>
-              </span>
-              <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Padink engineering tracker
-                <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">Latest</span></h3>
-              <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on January 13th, 2020</time>
-              <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                This Application focus on transforming companies by helping them build digital products and offer unique services that unlocks unknown engineering & business possibilities.
-              </p>
-              <a href="https://www.padink.in/" class="inline-flex items-center py-2 px-4 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
-                </svg>
-                Visit site
-              </a>
-            </li>
-            <li class="mb-10 ml-6">
-              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-                <svg aria-hidden="true" class="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd"></path></svg>
-              </span>
-              <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Preetha foundation</h3>
-              {/* <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">In progress</time> */}
-              <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                It's a static website. I worked on the front-end development and ui | ux design of this project, which was developed completely in Reactjs (hooks) and tailwindcss
-              </p>
-              <a href="https://www.preethafoundation.com/" class="inline-flex items-center py-2 px-4 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
-                </svg>
-                Visit site
-              </a>
-            </li>
-            <li class="ml-6">
-              <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-                <svg aria-hidden="true" class="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd"></path></svg>
-              </span>
-              <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Terv</h3>
-              <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on January 2nd, 2021</time>
-              <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-                Terv is an web based application used to create assessments, courses for the training and practicing platform. I have been involved in front-end development in this project and The project required me to learn Typescript for front-end development
-              </p>
-              <a href="https://terv.pro/" class="inline-flex items-center py-2 px-4 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
-                </svg>
-                Visit site
-              </a>
-            </li>
-          </ol>
-
+    <div id='Projects' className='mx-3 sm:mx-6 mb-6 sm:mb-8'>
+      <div className='backdrop-blur-md bg-white/5 rounded-2xl sm:rounded-3xl border border-white/10 p-4 sm:p-8'>
+        <h2 className='text-2xl sm:text-4xl lg:text-5xl font-bold text-center mb-6 sm:mb-12 bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent'>
+          Professional Experience
+        </h2>
+        
+        <div className='max-w-4xl mx-auto'>
+          <div className='relative'>
+            {/* Timeline line - hidden on mobile */}
+            <div className='hidden sm:block absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-pink-500 to-purple-500'></div>
+            
+            {experiences.map((exp, index) => (
+              <div key={index} className='relative mb-6 sm:mb-12 last:mb-0'>
+                {/* Timeline dot - hidden on mobile */}
+                <div className={`hidden sm:block absolute left-6 w-4 h-4 rounded-full border-4 border-white/20 ${
+                  exp.current ? 'bg-gradient-to-r from-pink-500 to-purple-500 animate-pulse' : 'bg-white/30'
+                } z-10`}></div>
+                
+                {/* Content card */}
+                <div className='sm:ml-16 w-full'>
+                  <div className='backdrop-blur-sm bg-white/10 rounded-xl sm:rounded-2xl border border-white/20 p-4 sm:p-6 hover:bg-white/15 transition-all duration-300 group'>
+                    {/* Header */}
+                    <div className='mb-3 sm:mb-4'>
+                      <div className='flex flex-col sm:flex-row sm:items-center sm:justify-between'>
+                        <div className='mb-2 sm:mb-0'>
+                          <h3 className='text-lg sm:text-xl font-bold text-white mb-1 leading-tight'>{exp.company}</h3>
+                          <p className='text-pink-300 font-semibold text-sm sm:text-base'>{exp.role}</p>
+                        </div>
+                        <div className='flex items-center space-x-2'>
+                          {exp.current && (
+                            <span className='bg-gradient-to-r from-green-400 to-emerald-500 text-white text-xs px-2 sm:px-3 py-1 rounded-full font-medium'>
+                              Current
+                            </span>
+                          )}
+                          <span className='text-white/70 text-xs sm:text-sm font-medium bg-white/10 px-2 sm:px-3 py-1 rounded-full'>
+                            {exp.period}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {/* Technologies */}
+                    <div className='flex flex-wrap gap-1.5 sm:gap-2 mb-3 sm:mb-4'>
+                      {exp.technologies.map((tech, techIndex) => (
+                        <span key={techIndex} className='bg-gradient-to-r from-purple-500/20 to-pink-500/20 text-purple-200 text-xs px-2 sm:px-3 py-1 rounded-full border border-purple-400/30'>
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
+                    
+                    {/* Achievements */}
+                    <ul className='space-y-1.5 sm:space-y-2'>
+                      {exp.achievements.map((achievement, achIndex) => (
+                        <li key={achIndex} className='flex items-start space-x-2 sm:space-x-3 text-white/80'>
+                          <div className='w-1 h-1 sm:w-1.5 sm:h-1.5 bg-gradient-to-r from-pink-400 to-purple-400 rounded-full mt-1.5 sm:mt-2 flex-shrink-0'></div>
+                          <span className='text-xs sm:text-sm leading-relaxed'>{achievement}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+        
+        {/* Stats section */}
+        <div className='mt-8 sm:mt-12 grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6'>
+          <div className='text-center backdrop-blur-sm bg-white/10 rounded-lg sm:rounded-xl p-3 sm:p-4 border border-white/20'>
+            <div className='text-xl sm:text-2xl font-bold text-white mb-1'>6+</div>
+            <div className='text-white/70 text-xs sm:text-sm'>Years Experience</div>
+          </div>
+          <div className='text-center backdrop-blur-sm bg-white/10 rounded-lg sm:rounded-xl p-3 sm:p-4 border border-white/20'>
+            <div className='text-xl sm:text-2xl font-bold text-white mb-1'>4</div>
+            <div className='text-white/70 text-xs sm:text-sm'>Companies</div>
+          </div>
+          <div className='text-center backdrop-blur-sm bg-white/10 rounded-lg sm:rounded-xl p-3 sm:p-4 border border-white/20'>
+            <div className='text-xl sm:text-2xl font-bold text-white mb-1'>15+</div>
+            <div className='text-white/70 text-xs sm:text-sm'>Projects</div>
+          </div>
+          <div className='text-center backdrop-blur-sm bg-white/10 rounded-lg sm:rounded-xl p-3 sm:p-4 border border-white/20'>
+            <div className='text-xl sm:text-2xl font-bold text-white mb-1'>100%</div>
+            <div className='text-white/70 text-xs sm:text-sm'>Client Satisfaction</div>
+          </div>
         </div>
       </div>
-    </React.Fragment>
+    </div>
   )
 }
