@@ -120,7 +120,7 @@ export default function SecondSection() {
         {/* Stats section */}
         <div className='mt-8 sm:mt-12 grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6'>
           <div className='text-center backdrop-blur-sm bg-white/10 rounded-lg sm:rounded-xl p-3 sm:p-4 border border-white/20'>
-            <div className='text-xl sm:text-2xl font-bold text-white mb-1'>6+</div>
+            <div className='text-xl sm:text-2xl font-bold text-white mb-1'>4+</div>
             <div className='text-white/70 text-xs sm:text-sm'>Years Experience</div>
           </div>
           <div className='text-center backdrop-blur-sm bg-white/10 rounded-lg sm:rounded-xl p-3 sm:p-4 border border-white/20'>
@@ -128,7 +128,7 @@ export default function SecondSection() {
             <div className='text-white/70 text-xs sm:text-sm'>Companies</div>
           </div>
           <div className='text-center backdrop-blur-sm bg-white/10 rounded-lg sm:rounded-xl p-3 sm:p-4 border border-white/20'>
-            <div className='text-xl sm:text-2xl font-bold text-white mb-1'>15+</div>
+            <div className='text-xl sm:text-2xl font-bold text-white mb-1'>5+</div>
             <div className='text-white/70 text-xs sm:text-sm'>Projects</div>
           </div>
           <div className='text-center backdrop-blur-sm bg-white/10 rounded-lg sm:rounded-xl p-3 sm:p-4 border border-white/20'>

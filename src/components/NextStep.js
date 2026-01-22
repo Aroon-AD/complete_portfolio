@@ -70,7 +70,7 @@ export const NextStep = () => {
         
         {/* Learning goals */}
         <div className='mt-8 sm:mt-12 text-center'>
-          <h3 className='text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6'>2025 Learning Goals</h3>
+          <h3 className='text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6'>2026 Learning Goals</h3>
           <div className='flex flex-wrap justify-center gap-2 sm:gap-3 px-2'>
             {['GraphQL', 'Docker', 'AWS', 'React Native', 'Three.js', 'WebAssembly'].map((goal, index) => (
               <span key={index} className='bg-gradient-to-r from-indigo-500/20 to-purple-500/20 text-indigo-200 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full border border-indigo-400/30 text-xs sm:text-sm font-medium'>
